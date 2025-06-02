@@ -37,9 +37,10 @@ Pod::Spec.new do |s|
   
   s.resource_bundles = {
     'SmartWKWebView' => ['SmartWKWebView/**/*.{storyboard,xib}']
+    'SmartWKWebViewAssets' => ['SmartWKWebView/Assets/**/*.{xcassets,imageset,png,jpg,json,html,css,js,svg}']
   }
 
-  s.resources = "SmartWKWebView/Assets/*.xcassets"
+  # s.resources = "SmartWKWebView/Assets/*.xcassets"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
