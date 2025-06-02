@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SmartWKWebView/Classes/**/*'
   
   s.resource_bundles = {
-    'SmartWKWebView' => ['SmartWKWebView/**/*.{storyboard,xib}']
+    'SmartWKWebView' => ['SmartWKWebView/**/*.{storyboard,xib}'],
     'SmartWKWebViewAssets' => ['SmartWKWebView/Assets/**/*.{xcassets,imageset,png,jpg,json,html,css,js,svg}']
   }
 
